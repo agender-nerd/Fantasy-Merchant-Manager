@@ -12,7 +12,7 @@ public:
     Inventory();
 
     void listAllItems() const;
-    void removeItem(int index);
+    bool removeItem(int index);
 
     void addItem(const ItemPointer& item) { m_items.push_back(item); }
     const ItemPointer& getItem(int index) const { return m_items.at(index); }

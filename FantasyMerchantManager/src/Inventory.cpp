@@ -9,8 +9,10 @@ void Inventory::listAllItems() const {
     }
 }
 
-void Inventory::removeItem(int index) {
+bool Inventory::removeItem(int index) {
     if (index >= 0 && index < m_items.size()) {
         m_items.erase(m_items.begin() + index);
+        return true;
     }
+    return false;
 }
