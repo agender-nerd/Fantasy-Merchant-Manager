@@ -1,7 +1,7 @@
 #include "fmm/Weapon.h"
 #include <iostream>
 
-// Helper functions for displayDetails()
+// Helper functions for Weapon::displayDetails()
 std::string typeToString(WeaponType type) {
     switch (type) {
         case WeaponType::Sword: return "sword";
