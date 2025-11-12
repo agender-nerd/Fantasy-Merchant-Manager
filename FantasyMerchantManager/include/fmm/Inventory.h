@@ -14,11 +14,10 @@ public:
     void listAllItems() const;
     bool removeItem(int index);
 
-    void addItem(const ItemPointer& item) { m_items.push_back(item); }
-    const ItemPointer& getItem(int index) const { return m_items.at(index); }
+    void addItem(const ItemPointer& item) { items.push_back(item); }
+    const ItemPointer& getItem(int index) const { return items.at(index); }
 
-private:
-    std::vector<ItemPointer> m_items;
+    std::vector<ItemPointer> items;
 };
 
 #endif
