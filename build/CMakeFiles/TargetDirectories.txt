@@ -1,0 +1,3 @@
+/workspaces/Fantasy-Merchant-Manager/build/CMakeFiles/fmm.dir
+/workspaces/Fantasy-Merchant-Manager/build/CMakeFiles/edit_cache.dir
+/workspaces/Fantasy-Merchant-Manager/build/CMakeFiles/rebuild_cache.dir

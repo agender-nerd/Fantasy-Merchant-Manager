@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/fmm.dir/src/main.cpp.o CMakeFiles/fmm.dir/src/Inventory.cpp.o CMakeFiles/fmm.dir/src/Item.cpp.o CMakeFiles/fmm.dir/src/Weapon.cpp.o CMakeFiles/fmm.dir/src/Armor.cpp.o CMakeFiles/fmm.dir/src/Potion.cpp.o -o fmm 
