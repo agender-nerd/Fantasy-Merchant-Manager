@@ -2,6 +2,9 @@
 #define FMM_ITEM_H
 
 #include <string>
+#include <nlohmann/json.hpp>
+
+using json = nlohman::json;
 
 class Item {
 public:

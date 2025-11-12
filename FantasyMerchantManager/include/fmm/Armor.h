@@ -3,6 +3,9 @@
 
 #include "fmm/Item.h"
 #include <string>
+#include <nlohmann/json.hpp>
+
+using json = nlohman::json;
 
 enum class ArmorType {
     Cloth,

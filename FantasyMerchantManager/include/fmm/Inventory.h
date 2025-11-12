@@ -4,8 +4,11 @@
 #include "fmm/Item.h"
 #include <vector>
 #include <memory>
+#include <nlohmann/json.hpp>
 
 using ItemPointer = std::shared_ptr<Item>;
+using json = nlohman::json;
+
 
 class Inventory {
 public:
